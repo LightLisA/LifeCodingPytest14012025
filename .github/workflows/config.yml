@@ -22,7 +22,7 @@ jobs:
 
       - name: Run UI-tests via docker-compose
         env:
-          LOGIN: ${{ secrets.LOGIN }}
+          LOGIN: ${{ secrets.LOGIN1 }}
           PASSWORD: ${{ secrets.PASSWORD }}
         run: |
           docker-compose up --exit-code-from regression || true
