@@ -1,21 +1,21 @@
 {
   "42b4a115007c35c622675a0baedb491a" : {
     "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
+      "failed" : 0,
+      "broken" : 1,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "fcd4792def6de07c",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: LOGIN не може бути None\nassert None is not None\n +  where None = <config.data.Data object at 0x7f583862f410>.LOGIN\n +    where <config.data.Data object at 0x7f583862f410> = <feature_profile_test.TestProfileFeature object at 0x7f5838bd0a40>.data",
+      "uid" : "a2e92dc121be9539",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
       "time" : {
-        "start" : 1736900767085,
-        "stop" : 1736900767746,
-        "duration" : 661
+        "start" : 1736900954920,
+        "stop" : 1736900966614,
+        "duration" : 11694
       }
     } ]
   }

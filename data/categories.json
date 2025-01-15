@@ -1,26 +1,26 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "children" : [ {
-    "name" : "Product defects",
+    "name" : "Test defects",
     "children" : [ {
-      "name" : "AssertionError: LOGIN не може бути None\nassert None is not None\n +  where None = <config.data.Data object at 0x7f583862f410>.LOGIN\n +    where <config.data.Data object at 0x7f583862f410> = <feature_profile_test.TestProfileFeature object at 0x7f5838bd0a40>.data",
+      "name" : "selenium.common.exceptions.TimeoutException: Message:",
       "children" : [ {
         "name" : "Change profile name",
-        "uid" : "fcd4792def6de07c",
-        "parentUid" : "49227b03c5d75ec0f8f78fb14b03135e",
-        "status" : "failed",
+        "uid" : "a2e92dc121be9539",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
         "time" : {
-          "start" : 1736900767085,
-          "stop" : 1736900767746,
-          "duration" : 661
+          "start" : 1736900954920,
+          "stop" : 1736900966614,
+          "duration" : 11694
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "49227b03c5d75ec0f8f78fb14b03135e"
+      "uid" : "31bb78a6a95ede3f78b260ed048910d8"
     } ],
-    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ],
   "name" : "categories"
 }
