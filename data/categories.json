@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: LOGIN не може бути None\nassert None is not None\n +  where None = <config.data.Data object at 0x7f583862f410>.LOGIN\n +    where <config.data.Data object at 0x7f583862f410> = <feature_profile_test.TestProfileFeature object at 0x7f5838bd0a40>.data",
+      "children" : [ {
+        "name" : "Change profile name",
+        "uid" : "fcd4792def6de07c",
+        "parentUid" : "49227b03c5d75ec0f8f78fb14b03135e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1736900767085,
+          "stop" : 1736900767746,
+          "duration" : 661
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "49227b03c5d75ec0f8f78fb14b03135e"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
